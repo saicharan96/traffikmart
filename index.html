@@ -39,7 +39,9 @@
     </div>
     <nav class="navbar navbar-default navit navbar-fixed-top ">
         <div class="container">
+            
             <div class="navbar-header">
+                <span class="navtaber visible-sm visible-xs" data-toggle="modal" data-target="#myModal">&#9776;</span>
                 <a class="navbar-brand" href="#"><span><h3>Traffikmart</h3></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
@@ -140,11 +142,113 @@
             </div>
         </div>
     </nav>
+<!-- Modal -->
+    <div class="modal left fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
 
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Menu</h4>
+                </div>
+
+                <div class="modal-body">
+                    <a class="linker" href="#">Home</a><br>
+
+                    <li class="dropdown linker">
+                        <a class="dropdown-toggle linker" data-toggle="dropdown" >Men</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a class="product" href="#">T-Shirts</a>
+                            </li>
+                            <li><a class="product" href="#">Shirts</a>
+                            </li>
+                            <li><a class="product">Jeans</a>
+                            </li>
+                            <li><a class="product">Trousers</a>
+                            </li>
+                            <li><a class="product">Track pants</a>
+                            </li>
+                            <li><a class="product">Cargos</a>
+                            </li>
+                            <li><a class="product">Shorts</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown linker">
+                        <a href="#" class="dropdown-toggle linker" data-toggle="dropdown">Women</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a class="product" href="#">T-Shirts</a>
+                            </li>
+                            <li><a class="product" href="#">Shirts</a>
+                            </li>
+                            <li><a class="product">Jeans</a>
+                            </li>
+                            <li><a class="product">Leggings</a>
+                            </li>
+                            <li><a class="product">Trousers</a>
+                            </li>
+                            <li><a class="product">Night Suits</a>
+                            </li>
+                            <li><a class="product">Panties</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown linker">
+                        <a href="#" class="dropdown-toggle linker" data-toggle="dropdown">Kids</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a class="product" href="#">T-Shirts</a>
+                            </li>
+                            <li><a class="product" href="#">Shirts</a>
+                            </li>
+                            <li><a class="product">Jeans</a>
+                            </li>
+                            <li><a class="product">Skirts</a>
+                            </li>
+                            <li><a class="product">Ethinic Wear</a>
+                            </li>
+                            <li><a class="product">Shorts</a>
+                            </li>
+                            <li><a class="product">Diapers</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown linker">
+                        <a href="#" class="dropdown-toggle linker" data-toggle="dropdown">Accesories</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a class="product" href="#">Mobile Cases</a>
+                            </li>
+                            <li><a class="product" href="#">Earphones</a>
+                            </li>
+                            <li><a class="product">Power Banks</a>
+                            </li>
+                            <li><a class="product">Screen Guards</a>
+                            </li>
+                            <li><a class="product">Mobile Cable</a>
+                            </li>
+                            <li><a class="product">Mobile Chargers</a>
+                            </li>
+                            <li><a class="product">Smart Fitbit</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <a class="linker" href="#">Gaming</a><br>
+                  
+                    <a class="linker" href="#">Blog</a><br>
+                  
+                    <a class="linker" href="#">Login</a><br>
+
+                    <a class="linker" href="#">Settings</a><br>
+                </ul>
+                </div>
+
+            </div><!-- modal-content -->
+        </div><!-- modal-dialog -->
+    </div><!-- modal -->
+    
     <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
-            <h3>Are you Looking for Something ?</h3>
+            <h3 class="hidden-sm hidden-xs">Are you Looking for Something ?</h3>
             <br>
             <center>
                 <input type="text" placeholder="Search for Clothing, Accesories and More....">
@@ -363,6 +467,7 @@
             document.getElementById("myNav").style.height = "0%";
         }
     </script>
+     
 
 </body>
 

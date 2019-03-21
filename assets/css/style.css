@@ -40,6 +40,10 @@ input[type=text] {
     outline: none;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
+.navtaber
+{
+    font-size:25px;cursor:pointer;float:right;color:#000000;margin:10px 15px;
+}
 .topBar, .topBarWrapper {
     display: inline-block;
     width: 100%;
@@ -100,6 +104,22 @@ font-family: 'Montserrat', sans-serif;
     line-height: 25px !important;
     color:#000000 !important;
     color:rgba(0, 0, 0, 0.9);
+    text-transform: uppercase;
+}
+
+.dropdown-menu>ul
+{
+ list-style-type: none;
+}
+.linker
+{
+  font-family: 'Montserrat', sans-serif;
+    font-size:14px; 
+    font-weight:700;
+    line-height: 25px !important;
+    color:#000000 !important;
+    color:rgba(0, 0, 0, 0.9);
+    list-style-type: none;
     text-transform: uppercase;
 }
 .navbar-nav>li>a.scrolled
@@ -171,6 +191,81 @@ background-color:#ffffff;
 .product-grid2 .price{color:#303030;font-size:15px;font-family: 'Montserrat', sans-serif;font-weight:700;}
 @media screen and (max-width:990px){.product-grid2{margin-bottom:30px}
 }
+
+
+
+
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+* Get free snippets on bootpen.com
+*******************************/
+  .modal.left .modal-dialog,
+  .modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    border-radius: 0px;
+    width: 220px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+        -ms-transform: translate3d(0%, 0, 0);
+         -o-transform: translate3d(0%, 0, 0);
+            transform: translate3d(0%, 0, 0);
+  }
+
+  .modal.left .modal-content,
+  .modal.right .modal-content {
+    height: 100%;
+      border-radius: 0px;
+    overflow-y: auto;
+  }
+  
+  .modal.left .modal-body,
+  .modal.right .modal-body {
+    padding: 15px 15px 80px;
+  }
+
+/*Left*/
+  .modal.left.fade .modal-dialog{
+    left: -220px;
+      border-radius: 0px;
+    -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+       -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+         -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+            transition: opacity 0.3s linear, left 0.3s ease-out;
+  }
+  
+  .modal.left.fade.in .modal-dialog{
+    left: 0;
+  }
+        
+/*Right*/
+  .modal.right.fade .modal-dialog {
+    right: -320px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+       -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+         -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+            transition: opacity 0.3s linear, right 0.3s ease-out;
+  }
+  
+  .modal.right.fade.in .modal-dialog {
+    right: 0;
+  }
+
+/* ----- MODAL STYLE ----- */
+  .modal-content {
+    border-radius: 0px;
+    border: none;
+  }
+
+  .modal-header {
+    border-bottom-color: #FC9E3E;
+    background-color: #FC9E3E;
+    font-family: 'Montserrat', sans-serif;font-weight:700;
+    font-size:18px;
+  }
+
+
 
 
 #preloader {
