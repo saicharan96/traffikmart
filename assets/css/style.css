@@ -61,6 +61,21 @@ input[type=text] {
   padding:0px 10px;
   
 }
+.footicon
+{
+  color:#ffffff;
+  font-size:20px;
+}
+.footersm {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding:5px;
+   background-color:#000000;
+   color: white;
+   text-align: center;
+}
 .topBarWrapper a:hover
 {
   text-decoration:none;
