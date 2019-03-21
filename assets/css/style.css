@@ -399,14 +399,7 @@ background-color:#000000;
   font-size: 60px;
 }
 
-.footer i
-{
-   color:#898989;
-}
-.footer i:hover
-{
-   text-decoration:none !important;
-}
+
 .navbar-default{
   transition:500ms ease;
   background-color:#ffffff !important;
@@ -620,11 +613,7 @@ background-color:#ffffff !important;
     {
         font-size:14px !important;
     }
-.footer
-{
-   margin-top:40px;
-     background-image: url(../images/);
-}
+
     .closebtn {
   position: absolute;
   top: 5px;
@@ -632,12 +621,6 @@ background-color:#ffffff !important;
     padding:10px;
   font-size: 60px;
 }
-.footer p
-{
-     font-family: 'Montserrat', sans-serif;
-    font-size:11px;
-    font-weight:bold;
-    padding:5px;
-}
+
 
 }
