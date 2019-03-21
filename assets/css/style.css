@@ -163,7 +163,7 @@ background-color:#ffffff;
 .product-grid2 .title{font-size:15px;margin:0 0 7px}
 .product-grid2 .title a{color:#303030;}
 .product-grid2 .title a:hover{color:#3498db}
-.product-grid2 .price{color:#303030;font-size:15px;font-family: 'Montserrat', sans-serif;font-weight:700;padding-left:5px;}
+.product-grid2 .price{color:#303030;font-size:15px;font-family: 'Montserrat', sans-serif;font-weight:700;}
 @media screen and (max-width:990px){.product-grid2{margin-bottom:30px}
 }
 
