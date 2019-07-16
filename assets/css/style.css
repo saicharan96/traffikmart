@@ -164,6 +164,34 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 {
     margin-top:100px;
 }
+.popular
+{
+    margin:50px 0px;
+}
+.popular h3
+{
+     font-family: 'Nunito', sans-serif;
+    font-size:32px;
+    text-align: center;
+    font-weight:800;
+}
+.popbor {
+  border:1px solid #e7e7e7;
+  transition: 0.3s;
+  width: 100%;
+    padding:10px 5px;
+    margin-top:15px;
+}
+
+.popbor:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.popbor p
+{
+    font-family: 'Nunito', sans-serif;
+    padding:5px;
+    font-size:16px;
+}
 .med
 {
     max-width:25px;
@@ -283,6 +311,16 @@ input[type=text] {
 {
     margin-top:80px;
 }
+    .popbor img
+    {
+        max-width:40px;
+        width:100%;
+    }
+    .popbor p
+    {
+        font-size:14px;
+        font-weight:600;
+    }
     .topbar
     {
             padding: 6px 0 6px;
