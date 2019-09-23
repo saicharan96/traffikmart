@@ -155,6 +155,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
 }
+
 .navtaber
 {
     float:right !important;
