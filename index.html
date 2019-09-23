@@ -14,7 +14,25 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/js/sidenav.js"></script>
 </head>
-
+<script>
+jQuery.ajax( {
+  url: '//freegeoip.net/json/',
+  type: 'POST',
+  dataType: 'jsonp',
+  success: function(location) {
+    // If the visitor is browsing from US.
+    if (location.country_code === 'US') {
+      // Tell them about free shipping.
+      jQuery('#shipping-notice').css('display','block');
+    }
+  }
+} );
+</script>
+<div id="shipping-notice" style="display:none;">
+  <div id="message" style="padding:30px;">
+    <p>Free shipping on all U.S. orders!</p>
+  </div>
+</div>
 <body>
     <div class="navbar-fixed-top">
     <div class="Wrapper">
